@@ -3,7 +3,7 @@ import pygame
 
 class CheckersBoard:
     def __init__(self):
-        # Initialize the board here (similar to the 2D list mentioned earlier)
+        # Initialize the board here 
         self.board = [
             ['_', 'o', '_', 'o', '_', 'o', '_', 'o'],
             ['o', '_', 'o', '_', 'o', '_', 'o', '_'],
