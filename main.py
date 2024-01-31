@@ -41,12 +41,12 @@ def main():
                     # Switch turns only after a valid move
                     current_player = 'o' if current_player == 'x' else 'x'
 
-        # Update game logic here
+        
     
         # Display the board
         checkers_board.display()
 
-        # Highlight possible moves for the selected piece (for demonstration purposes)
+        # Highlight possible moves for the selected piece 
         if selected_piece is not None:
             row, col = selected_piece
             possible_moves = checkers_board.get_possible_moves(current_player, row, col)
